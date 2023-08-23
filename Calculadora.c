@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-// Função para converter um número decimal para binário
 void decimalParaBinario(int numero) {
-    int binario[32]; // Um número inteiro em C é geralmente representado em 32 bits
+    int binario[32];
     int i = 0;
 
     if (numero == 0) {
